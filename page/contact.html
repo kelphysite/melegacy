@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MELEGACY</title>
+    <link href="../src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="../image/Logo.png" />
+    <link
+      rel="stylesheet"
+      href="../assets/fontawesome-free-6.7.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap"
+    />
+  </head>
+
+  <body class="bg-white text-gray-800">
+    <!-- Header / Navbar -->
+    <header class="w-full shadow-md fixed top-0 left-0 bg-white z-50">
+      <div
+        class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4"
+      >
+        <a class="flex items-center space-x-2" href="../index.html">
+          <img
+            alt="Logo"
+            class="w-20 h-20 object-contain"
+            height="48"
+            src="../image/Logo.png"
+            width="48"
+          />
+          <span class="text-2xl font-bold text-blue-600">MELEGACY</span>
+        </a>
+        <nav>
+          <button
+            aria-label="Toggle navigation menu"
+            class="md:hidden focus:outline-none focus:ring-2 focus:ring-blue-600"
+            id="nav-toggle"
+          >
+            <i class="fas fa-bars text-2xl text-blue-600"> </i>
+          </button>
+          <ul
+            class="hidden md:flex space-x-8 text-lg font-semibold text-gray-700"
+            id="nav-menu"
+          >
+            <li>
+              <a class="hover:text-blue-600 transition" href="../index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="about.html">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="service.html">
+                Service
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="project.html">
+                Project
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="gallery.html">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="#"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Mobile menu -->
+      <div class="md:hidden hidden bg-white shadow-md" id="mobile-menu">
+        <ul
+          class="flex flex-col space-y-2 px-4 py-4 text-gray-700 font-semibold text-lg"
+        >
+          <li>
+            <a
+              class="block hover:text-blue-600 transition"
+              href="../index.html"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="about.html">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="service.html">
+              Service
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="project.html">
+              Project
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="gallery.html">
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="#">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container mx-auto px-4 py-10 max-w-7xl pt-40">
+      <h1 class="text-3xl font-bold text-center text-gray-900 mb-8">
+        Contact <span class="text-blue-600">Us</span>
+      </h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <section>
+          <h2 class="text-2xl font-semibold mb-4 text-gray-900">
+            Get in Touch
+          </h2>
+          <p class="mb-6 text-gray-700">
+            We would love to hear from you! Please fill out the form below or
+            use the contact details to reach us.
+          </p>
+          <form
+            action="#"
+            class="space-y-6 bg-white p-6 rounded-lg shadow-md"
+            method="POST"
+            novalidate=""
+          >
+            <div>
+              <label class="block text-gray-700 font-semibold mb-1" for="name">
+                Full Name
+              </label>
+              <input
+                class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="name"
+                name="name"
+                placeholder="Your full name"
+                required=""
+                type="text"
+              />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-semibold mb-1" for="email">
+                Email Address
+              </label>
+              <input
+                class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required=""
+                type="email"
+              />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-semibold mb-1" for="phone">
+                Phone Number
+              </label>
+              <input
+                class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="phone"
+                name="phone"
+                placeholder="+62 812 3456 7890"
+                type="tel"
+              />
+            </div>
+            <div>
+              <label
+                class="block text-gray-700 font-semibold mb-1"
+                for="message"
+              >
+                Message
+              </label>
+              <textarea
+                class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="message"
+                name="message"
+                placeholder="Write your message here..."
+                required=""
+                rows="5"
+              ></textarea>
+            </div>
+            <button
+              class="bg-blue-700 text-white font-semibold px-6 py-3 rounded-md hover:bg-blue-800 transition w-full"
+              type="submit"
+            >
+              Send Message
+            </button>
+          </form>
+        </section>
+        <section>
+          <h2 class="text-2xl font-semibold mb-4 text-gray-900">Our Office</h2>
+          <div class="bg-white rounded-lg shadow-md p-6 space-y-6">
+            <div class="flex items-start space-x-4">
+              <i class="fas fa-map-marker-alt text-blue-600 text-2xl mt-1"> </i>
+              <div>
+                <h3 class="font-semibold text-lg text-gray-900">Address</h3>
+                <p class="text-gray-700">
+                  Jl. Raya Bogor Km. 26 No. 12, Ciracas, Jakarta Timur, 13740,
+                  Indonesia
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <i class="fas fa-phone-alt text-blue-600 text-2xl mt-1"> </i>
+              <div>
+                <h3 class="font-semibold text-lg text-gray-900">Phone</h3>
+                <p class="text-gray-700">+62 21 8778 1234</p>
+                <p class="text-gray-700">+62 812 3456 7890 (WhatsApp)</p>
+              </div>
+            </div>
+            <div class="flex items-start space-x-4">
+              <i class="fas fa-envelope text-blue-600 text-2xl mt-1"> </i>
+              <div>
+                <h3 class="font-semibold text-lg text-gray-900">Email</h3>
+                <p class="text-gray-700">info@loremipsum.co.id</p>
+              </div>
+            </div>
+            <div>
+              <h3 class="font-semibold text-lg text-gray-900 mb-2">Jam Buka</h3>
+              <p class="text-gray-700">Monday - Friday: 08:00 AM - 05:00 PM</p>
+              <p class="text-gray-700">Saturday - Sunday: Closed</p>
+            </div>
+          </div>
+          <div class="mt-8 rounded-lg overflow-hidden shadow-md">
+            <img
+              alt="Map location showing MDS Kontraktor office in Jakarta Timur with surrounding streets and landmarks"
+              class="w-full h-auto"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/a21abb93-12e9-41f6-478d-b37a21f7f33b.jpg"
+              width="600"
+            />
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-10">
+      <div
+        class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 divide-y divide-y-[2px] divide-gray-700 md:divide-y-0 md:divide-x md:divide-x-[2px]"
+      >
+        <div class="pt-8 md:pt-0 md:pr-8">
+          <img
+            alt="MELEGACY Logo"
+            class="w-60 h-60 mb-4"
+            height="96"
+            src="../image/Logo.png"
+            width="96"
+          />
+        </div>
+        <div class="pt-8 md:pt-0 md:px-8">
+          <h4 class="text-white text-xl font-bold mb-4">MELEGACY</h4>
+          <p>
+            <a class="hover:underline" href="">
+              Jl. Jend. Sudirman No. 123, Jakarta, Indonesia</a
+            >
+            <br />
+            Phone: <a class="hover:underline" href="">+62 21 555 1234</a>
+            <br />
+            Email: <a class="hover:underline" href="">info@loremipsum.co.id</a>
+          </p>
+        </div>
+        <div class="pt-8 md:pt-0 md:px-8">
+          <h4 class="text-white text-xl font-bold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li>
+              <a class="hover:text-blue-600 transition" href="../index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="about.html">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="service.html">
+                Service
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="project.html">
+                Project
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="gallery.html">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="#">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="pt-8 md:pt-0 md:pl-8">
+          <h4 class="text-white text-xl font-bold mb-4">Follow Us</h4>
+          <div class="flex space-x-6 text-gray-400">
+            <a
+              aria-label="Facebook"
+              class="hover:text-blue-600 transition"
+              href="https://facebook.com/mdskontraktor"
+            >
+              <i class="fab fa-facebook fa-2x"> </i>
+            </a>
+            <a
+              aria-label="Twitter"
+              class="hover:text-blue-600 transition"
+              href="https://twitter.com/mdskontraktor"
+            >
+              <i class="fa-brands fa-x-twitter fa-2x"> </i>
+            </a>
+            <a
+              aria-label="Instagram"
+              class="hover:text-pink-500 transition"
+              href="https://instagram.com/mdskontraktor"
+            >
+              <i class="fab fa-instagram fa-2x"> </i>
+            </a>
+            <a
+              aria-label="LinkedIn"
+              class="hover:text-blue-600 transition"
+              href="https://linkedin.com/company/mdskontraktor"
+            >
+              <i class="fab fa-linkedin fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 text-center text-gray-500 text-sm">
+        © 2025 MELEGACY. All rights reserved.
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

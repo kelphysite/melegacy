@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MELEGACY</title>
+    <link href="../src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="../image/Logo.png" />
+    <link
+      rel="stylesheet"
+      href="../assets/fontawesome-free-6.7.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap"
+    />
+  </head>
+
+  <body class="bg-white text-gray-800">
+    <!-- Header / Navbar -->
+    <header class="w-full shadow-md fixed top-0 left-0 bg-white z-50">
+      <div
+        class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4"
+      >
+        <a class="flex items-center space-x-2" href="../index.html">
+          <img
+            alt="Logo"
+            class="w-20 h-20 object-contain"
+            height="48"
+            src="../image/Logo.png"
+            width="48"
+          />
+          <span class="text-2xl font-bold text-blue-600">MELEGACY</span>
+        </a>
+        <nav>
+          <button
+            aria-label="Toggle navigation menu"
+            class="md:hidden focus:outline-none focus:ring-2 focus:ring-blue-600"
+            id="nav-toggle"
+          >
+            <i class="fas fa-bars text-2xl text-blue-600"> </i>
+          </button>
+          <ul
+            class="hidden md:flex space-x-8 text-lg font-semibold text-gray-700"
+            id="nav-menu"
+          >
+            <li>
+              <a class="hover:text-blue-600 transition" href="../index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="about.html">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="service.html">
+                Service
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="#"> Project </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="gallery.html">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Mobile menu -->
+      <div class="md:hidden hidden bg-white shadow-md" id="mobile-menu">
+        <ul
+          class="flex flex-col space-y-2 px-4 py-4 text-gray-700 font-semibold text-lg"
+        >
+          <li>
+            <a
+              class="block hover:text-blue-600 transition"
+              href="../index.html"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="about.html">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="service.html">
+              Service
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="#">
+              Project
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="gallery.html">
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a class="block hover:text-blue-600 transition" href="contact.html">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container mx-auto px-4 py-8 pt-28 max-w-7xl">
+      <section
+        aria-labelledby="projects-title"
+        class="max-w-7xl mx-auto px-4 py-16"
+        id="projects"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-6 text-center"
+          id="projects-title"
+        >
+          <span class="text-blue-600">Our</span> Projects
+        </h2>
+        <p class="text-gray-600 text-center mb-12 leading-relaxed">
+          MDS Kontraktor adalah penyedia jasa konstruksi yang telah menangani
+          berbagai pembangunan khususnya bangunan industri struktur baja dan
+          bangunan komersial skala nasional. Berikut kompilasi foto dari proyek
+          terpilih yang telah kami selesaikan.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Modern residential building project with multiple floors and balconies, surrounded by greenery"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/3eb6d481-3f27-4fb1-64a7-a80df0f5c960.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                Modern Residential Complex
+              </h3>
+              <p class="text-gray-600 text-sm">
+                Lokasi: Gedangan, Sidoarjo
+                <br />Tahun Selesai: 2011
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Commercial office building project with glass facade and landscaped entrance"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/51f146bb-2b0e-4c26-8250-67ddb97b6839.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                Corporate Office Tower
+              </h3>
+              <p class="text-gray-600 text-sm">
+                Lokasi: Graha Family, Surabaya <br />Tahun Selesai: 2022
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Large industrial warehouse project with metal siding and loading docks"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/2da09fb5-f573-490e-c192-68e1906393aa.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                Industrial Warehouse Facility
+              </h3>
+              <p class="text-gray-600 text-sm">
+                Lokasi: Manyar, Gresik <br />
+                Tahun Selesai: Agustus 2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Renovated historic building with restored facade and modern interior"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/96dda82b-8165-44d0-8bd5-f2c9b16f80d5.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                Historic Building Renovation
+              </h3>
+              <p class="text-gray-600 text-sm">
+                Lokasi : Graha Family, Surabaya <br />
+                Durasi Proyek: Ongoing
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Luxury villa project with swimming pool and landscaped garden"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/91958816-a383-4349-0874-814147da9fc8.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                Luxury Villa Development
+              </h3>
+              <p class="text-gray-600 text-sm">
+                Lokasi: Klampis, Surabaya <br />Durasi Proyek: Ongoing
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Community center project with open spaces and modern architecture"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/7a5f330a-b14a-4079-db90-6915c3995b9a.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                Community Center Construction
+              </h3>
+              <p class="text-gray-600 text-sm">
+                Lokasi: Kawasan Industri Ngoro Industrial Park, Mojokerto.
+                <br />Tahun Selesai: 2011
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-10">
+      <div
+        class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 divide-y divide-y-[2px] divide-gray-700 md:divide-y-0 md:divide-x md:divide-x-[2px]"
+      >
+        <div class="pt-8 md:pt-0 md:pr-8">
+          <img
+            alt="MELEGACY Logo"
+            class="w-60 h-60 mb-4"
+            height="96"
+            src="../image/Logo.png"
+            width="96"
+          />
+        </div>
+        <div class="pt-8 md:pt-0 md:px-8">
+          <h4 class="text-white text-xl font-bold mb-4">MELEGACY</h4>
+          <p>
+            <a class="hover:underline" href="">
+              Jl. Jend. Sudirman No. 123, Jakarta, Indonesia</a
+            >
+            <br />
+            Phone: <a class="hover:underline" href="">+62 21 555 1234</a>
+            <br />
+            Email: <a class="hover:underline" href="">info@loremipsum.co.id</a>
+          </p>
+        </div>
+        <div class="pt-8 md:pt-0 md:px-8">
+          <h4 class="text-white text-xl font-bold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li>
+              <a class="hover:text-blue-600 transition" href="../index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="about.html">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="service.html">
+                Service
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="#">
+                Project
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="gallery.html">
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="pt-8 md:pt-0 md:pl-8">
+          <h4 class="text-white text-xl font-bold mb-4">Follow Us</h4>
+          <div class="flex space-x-6 text-gray-400">
+            <a
+              aria-label="Facebook"
+              class="hover:text-blue-600 transition"
+              href="https://facebook.com/mdskontraktor"
+            >
+              <i class="fab fa-facebook fa-2x"> </i>
+            </a>
+            <a
+              aria-label="Twitter"
+              class="hover:text-blue-600 transition"
+              href="https://twitter.com/mdskontraktor"
+            >
+              <i class="fa-brands fa-x-twitter fa-2x"> </i>
+            </a>
+            <a
+              aria-label="Instagram"
+              class="hover:text-pink-500 transition"
+              href="https://instagram.com/mdskontraktor"
+            >
+              <i class="fab fa-instagram fa-2x"> </i>
+            </a>
+            <a
+              aria-label="LinkedIn"
+              class="hover:text-blue-600 transition"
+              href="https://linkedin.com/company/mdskontraktor"
+            >
+              <i class="fab fa-linkedin fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 text-center text-gray-500 text-sm">
+        © 2025 MELEGACY. All rights reserved.
+      </div>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

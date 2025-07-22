@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MELEGACY</title>
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/x-icon" href="image/Logo.png" />
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.7.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap"
+    />
+  </head>
+
+  <body class="bg-white text-gray-800">
+    <!-- Header / Navbar -->
+    <header class="w-full shadow-md fixed top-0 left-0 bg-white z-50">
+      <div
+        class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4"
+      >
+        <a class="flex items-center space-x-2" href="#">
+          <img
+            alt="Logo"
+            class="w-20 h-20 object-contain"
+            height="48"
+            src="image/Logo.png"
+            width="48"
+          />
+          <span class="text-2xl font-bold text-blue-600">MELEGACY</span>
+        </a>
+        <nav>
+          <button
+            aria-label="Toggle navigation menu"
+            class="md:hidden focus:outline-none focus:ring-2 focus:ring-blue-600"
+            id="nav-toggle"
+          >
+            <i class="fas fa-bars text-2xl text-blue-600"> </i>
+          </button>
+          <ul
+            class="hidden md:flex space-x-8 text-lg font-semibold text-gray-700"
+            id="nav-menu"
+          >
+            <li>
+              <a class="hover:text-blue-600 transition" href="#"> Home </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="page/about.html">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-blue-600 transition"
+                href="page/service.html"
+              >
+                Service
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-blue-600 transition"
+                href="page/project.html"
+              >
+                Project
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-blue-600 transition"
+                href="page/gallery.html"
+              >
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-blue-600 transition"
+                href="page/contact.html"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Mobile menu -->
+      <div class="md:hidden hidden bg-white shadow-md" id="mobile-menu">
+        <ul
+          class="flex flex-col space-y-2 px-4 py-4 text-gray-700 font-semibold text-lg"
+        >
+          <li>
+            <a class="block hover:text-blue-600 transition" href="#"> Home </a>
+          </li>
+          <li>
+            <a
+              class="block hover:text-blue-600 transition"
+              href="page/about.html"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <a
+              class="block hover:text-blue-600 transition"
+              href="page/service.html"
+            >
+              Service
+            </a>
+          </li>
+          <li>
+            <a
+              class="block hover:text-blue-600 transition"
+              href="page/project.html"
+            >
+              Project
+            </a>
+          </li>
+          <li>
+            <a
+              class="block hover:text-blue-600 transition"
+              href="page/gallery.html"
+            >
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a
+              class="block hover:text-blue-600 transition"
+              href="page/contact.html"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="pt-28">
+      <!-- Hero Section -->
+      <div class="absolute h-full inset-0 h-[600px] md:h-[500px]">
+        <img
+          src="https://storage.googleapis.com/a1aa/image/adc1dfdc-f7e2-418a-ac74-f3672253f214.jpg"
+          alt="background"
+          class="w-full h-screen object-cover opacity-30"
+        />
+      </div>
+      <section
+        aria-label="Hero section with company introduction and main image"
+        class="absolute w-full h-screen max-w-7xl mx-auto px-4 py-16 -mb-16"
+        style="z-index: 10; position: relative"
+      >
+        <div class="md:w-1/2 space-y-6 my-16">
+          <h1
+            class="text-4xl md:text-5xl font-extrabold text-blue-600 leading-tight"
+          >
+            SEKILAS
+            <br />
+            <span class="text-gray-700">MELEGACY</span>
+          </h1>
+          <p class="text-gray-700 text-lg md:text-xl">
+            Manna Damai Sejahtera atau dikenal dengan nama MDS Kontraktor
+            didirikan pada tahun 1990. Kami memiliki kompetensi dan pengalaman
+            dalam berbagai proyek bangunan seperti pabrik, gudang, ruko, kantor,
+            rumah, supermarket dan mall.
+          </p>
+          <a
+            class="inline-block bg-blue-700 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-800 transition"
+            href="page/about.html"
+          >
+            Baca Lebih Lanjut
+          </a>
+        </div>
+      </section>
+      <!-- About Us Section -->
+      <section
+        aria-labelledby="about-title"
+        class="max-w-7xl mx-auto px-4 py-16"
+        id="about"
+      >
+        <h2
+          class="text-3xl font-bold text-blue-600 mb-8 text-center md:text-left"
+          id="about-title"
+        >
+          Design & Build
+        </h2>
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start gap-8"
+        >
+          <div class="md:w-1/2 space-y-4 text-gray-700 text-lg">
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Kami membantu dalam perencanaan arsitek, struktur dan konstruksi
+              yang optimum untuk menghemat biaya pembangunan hingga 40%.
+            </p>
+            <div class="flex flex-col md:flex-row gap-10 mt-12">
+              <div class="text-left">
+                <div
+                  class="text-3xl font-bold text-gray-600 mb-8 flex-1 text-center md:text-center"
+                >
+                  Pengalaman
+                </div>
+                <div
+                  class="text-3xl font-bold text-blue-600 mb-2 flex-1 text-center md:text-center"
+                >
+                  30+ Tahun
+                </div>
+              </div>
+              <div class="hidden md:block w-px bg-gray-300 mx-4"></div>
+              <div class="text-left">
+                <div
+                  class="text-3xl font-bold text-gray-600 mb-8 flex-1 text-center md:text-center"
+                >
+                  Proyek Selesai
+                </div>
+                <div
+                  class="text-3xl font-bold text-blue-600 mb-2 flex-1 text-center md:text-center"
+                >
+                  300+
+                </div>
+              </div>
+              <div class="hidden md:block w-px bg-gray-300 mx-4"></div>
+              <div class="text-left">
+                <div
+                  class="text-3xl font-bold text-gray-600 mb-8 flex-1 text-center md:text-center"
+                >
+                  Pekerja
+                </div>
+                <div
+                  class="text-3xl font-bold text-blue-600 mb-2 flex-1 text-center md:text-center"
+                >
+                  200+ Orang
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <img
+              alt="Team of construction professionals wearing helmets and safety vests discussing blueprints on a construction site"
+              class="rounded-lg shadow-lg w-2/3 mx-auto object-cover"
+              height="200"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/82a527c1-6ca8-4397-098f-5798a5345bc2.jpg"
+              width="400"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section dengan Background Image -->
+      <div
+        class="relative bg-blue-500 bg-opacity-90 text-center text-gray-900 py-20 px-4"
+      >
+        <div class="absolute inset-0">
+          <img
+            src="https://storage.googleapis.com/a1aa/image/3eb6d481-3f27-4fb1-64a7-a80df0f5c960.jpg"
+            alt="background"
+            class="w-full h-full object-cover opacity-30"
+          />
+        </div>
+        <div class="relative z-10 max-w-8xl mx-auto">
+          <h2 class="text-2xl text-white md:text-3xl font-bold leading-relaxed">
+            KONSULTASIKAN RANCANGAN BANGUNAN ANDA BERSAMA KONTRAKTOR <br />
+            SURABAYA, PT MDS. <br />
+            TIM PROFESIONAL KAMI SIAP MEMBANTU!
+          </h2>
+          <a
+            href="page/contact.html"
+            class="inline-block mt-8 px-6 py-3 bg-gray-900 text-white font-semibold rounded hover:bg-gray-800 transition"
+          >
+            KONTAK KAMI
+          </a>
+        </div>
+      </div>
+      <!-- Projects Section -->
+      <section
+        aria-labelledby="projects-title"
+        class="max-w-7xl mx-auto px-4 py-16"
+        id="projects"
+      >
+        <h2
+          class="text-3xl font-bold text-blue-600 mb-6 text-center"
+          id="projects-title"
+        >
+          Our <span class="text-gray-900">Projects</span>
+        </h2>
+        <p class="text-gray-600 mb-12 text-center leading-relaxed">
+          MDS berkomitmen untuk menjadi yang terbaik dalam setiap proyek dengan
+          memberikan kualitas dan layanan secara konsisten kepada pelanggan
+          kami.
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Modern residential building project with multiple floors and balconies, surrounded by greenery"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/3eb6d481-3f27-4fb1-64a7-a80df0f5c960.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-l font-semibold text-blue-600 mb-2">
+                Modern Residential Complex
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Commercial office building project with glass facade and landscaped entrance"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/51f146bb-2b0e-4c26-8250-67ddb97b6839.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-l font-semibold text-blue-600 mb-2">
+                Corporate Office Tower
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Large industrial warehouse project with metal siding and loading docks"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/2da09fb5-f573-490e-c192-68e1906393aa.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-l font-semibold text-blue-600 mb-2">
+                Industrial Warehouse Facility
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Renovated historic building with restored facade and modern interior"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/96dda82b-8165-44d0-8bd5-f2c9b16f80d5.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-l font-semibold text-blue-600 mb-2">
+                Historic Building Renovation
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Luxury villa project with swimming pool and landscaped garden"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/91958816-a383-4349-0874-814147da9fc8.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-l font-semibold text-blue-600 mb-2">
+                Luxury Villa Development
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+          >
+            <img
+              alt="Community center project with open spaces and modern architecture"
+              class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+              height="400"
+              loading="lazy"
+              src="https://storage.googleapis.com/a1aa/image/7a5f330a-b14a-4079-db90-6915c3995b9a.jpg"
+              width="600"
+            />
+            <div class="p-4 bg-white">
+              <h3 class="text-l font-semibold text-blue-600 mb-2">
+                Community Center Construction
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- News Section -->
+      <section aria-labelledby="news-title" class="bg-gray-50 py-16" id="news">
+        <div class="max-w-7xl mx-auto px-4">
+          <h2
+            class="text-3xl font-bold text-gray-900 mb-12 text-center"
+            id="news-title"
+          >
+            Latest News
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <article
+              class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+            >
+              <img
+                alt="Ceremony for new project launch with company executives and ribbon cutting"
+                class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                height="350"
+                loading="lazy"
+                src="https://storage.googleapis.com/a1aa/image/cabd8fe8-5ae0-48d6-5527-768c2520dd76.jpg"
+                width="600"
+              />
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                  New Project Launch in Jakarta
+                </h3>
+                <time class="text-gray-500 text-sm mb-4" datetime="2024-05-10">
+                  May 10, 2024
+                </time>
+                <p class="text-gray-600 flex-grow">
+                  MDS Kontraktor proudly launched a new residential project in
+                  Jakarta, aiming to provide modern and affordable housing.
+                </p>
+              </div>
+            </article>
+            <article
+              class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+            >
+              <img
+                alt="Safety training session with workers wearing helmets and safety vests in a classroom"
+                class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                height="350"
+                loading="lazy"
+                src="https://storage.googleapis.com/a1aa/image/450e4473-55a7-41c4-9b56-49bb993bbdd8.jpg"
+                width="600"
+              />
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                  Enhanced Safety Training
+                </h3>
+                <time class="text-gray-500 text-sm mb-4" datetime="2024-04-22">
+                  April 22, 2024
+                </time>
+                <p class="text-gray-600 flex-grow">
+                  We conducted an extensive safety training program for all our
+                  site workers to ensure the highest safety standards.
+                </p>
+              </div>
+            </article>
+            <article
+              class="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden flex flex-col group"
+            >
+              <img
+                alt="Award ceremony with company representatives receiving best construction company award"
+                class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                height="350"
+                loading="lazy"
+                src="https://storage.googleapis.com/a1aa/image/51a1a485-74a6-4e7a-965e-637695710a3c.jpg"
+                width="600"
+              />
+              <div class="p-6 flex flex-col flex-grow">
+                <h3 class="text-xl font-semibold text-blue-600 mb-2">
+                  Awarded Best Construction Company 2024
+                </h3>
+                <time class="text-gray-500 text-sm mb-4" datetime="2024-03-15">
+                  March 15, 2024
+                </time>
+                <p class="text-gray-600 flex-grow">
+                  MDS Kontraktor was honored with the Best Construction Company
+                  award for outstanding project delivery and client
+                  satisfaction.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+      <section
+        aria-labelledby="contact-title"
+        class="max-w-7xl mx-auto px-4 py-16"
+        id="contact"
+      >
+        <h2
+          class="text-3xl font-bold text-gray-900 mb-12 text-center"
+          id="contact-title"
+        >
+          Contact Us
+        </h2>
+        <div class="flex flex-col md:flex-row gap-12">
+          <form
+            action="#"
+            aria-label="Contact form"
+            class="md:w-1/2 bg-white p-8 rounded-lg shadow-md"
+            method="POST"
+          >
+            <div class="mb-6">
+              <label class="block mb-2 font-semibold text-gray-700" for="name">
+                Full Name
+              </label>
+              <input
+                class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="name"
+                name="name"
+                placeholder="Your full name"
+                required=""
+                type="text"
+              />
+            </div>
+            <div class="mb-6">
+              <label class="block mb-2 font-semibold text-gray-700" for="email">
+                Email Address
+              </label>
+              <input
+                class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required=""
+                type="email"
+              />
+            </div>
+            <div>
+              <label class="block text-gray-700 font-semibold mb-1" for="phone">
+                Phone Number
+              </label>
+              <input
+                class="border p-2 w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="phone"
+                name="phone"
+                placeholder="+62 812 3456 7890"
+                type="number"
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                class="block mb-2 font-semibold text-gray-700"
+                for="message"
+              >
+                Message
+              </label>
+              <textarea
+                class="w-full border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                id="message"
+                name="message"
+                placeholder="Write your message here"
+                required=""
+                rows="5"
+              ></textarea>
+            </div>
+            <button
+              class="bg-blue-700 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-800 transition w-full"
+              type="submit"
+            >
+              Send Message
+            </button>
+          </form>
+          <div class="md:w-1/2 space-y-8 text-gray-700">
+            <div>
+              <h3 class="text-xl font-semibold text-blue-600 mb-3">Address</h3>
+              <p>
+                <a class="hover:underline" href=""
+                  >Jl. Jend. Sudirman No. 123, Jakarta, Indonesia</a
+                >
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-blue-600 mb-3">Phone</h3>
+              <p>
+                <a class="hover:underline" href="">+62 21 555 1234</a>
+                (WhatsApp)
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-blue-600 mb-3">Email</h3>
+              <p>
+                <a class="hover:underline" href="">info@loremipsum.co.id</a>
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-blue-600 mb-3">
+                Follow Us
+              </h3>
+              <div class="flex space-x-6 text-gray-600 text-2xl">
+                <a
+                  aria-label="Facebook"
+                  class="hover:text-blue-600 transition"
+                  href="https://facebook.com/mdskontraktor"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-square"> </i>
+                </a>
+                <a
+                  aria-label="Twitter"
+                  class="hover:text-blue-600 transition"
+                  href="https://twitter.com/mdskontraktor"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-square-x-twitter"> </i>
+                </a>
+                <a
+                  aria-label="Instagram"
+                  class="hover:text-pink-500 transition"
+                  href="https://instagram.com/mdskontraktor"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram-square"> </i>
+                </a>
+                <a
+                  aria-label="LinkedIn"
+                  class="hover:text-blue-600 transition"
+                  href="https://linkedin.com/company/mdskontraktor"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-10">
+      <div
+        class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 divide-y divide-y-[2px] divide-gray-700 md:divide-y-0 md:divide-x md:divide-x-[2px]"
+      >
+        <div class="pt-8 md:pt-0 md:pr-8">
+          <img
+            alt="MELEGACY Logo"
+            class="w-60 h-60 mb-4"
+            height="96"
+            src="image/Logo.png"
+            width="96"
+          />
+        </div>
+        <div class="pt-8 md:pt-0 md:px-8">
+          <h4 class="text-white text-xl font-bold mb-4">MELEGACY</h4>
+          <p>
+            <a class="hover:underline" href="">
+              Jl. Jend. Sudirman No. 123, Jakarta, Indonesia</a
+            >
+            <br />
+            Phone: <a class="hover:underline" href="">+62 21 555 1234</a>
+            <br />
+            Email: <a class="hover:underline" href="">info@loremipsum.co.id</a>
+          </p>
+        </div>
+        <div class="pt-8 md:pt-0 md:px-8">
+          <h4 class="text-white text-xl font-bold mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li>
+              <a class="hover:text-blue-600 transition" href="#"> Home </a>
+            </li>
+            <li>
+              <a class="hover:text-blue-600 transition" href="page/about.html">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-blue-600 transition"
+                href="page/service.html"
+              >
+                Service
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-blue-600 transition"
+                href="page/project.html"
+              >
+                Project
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-blue-600 transition"
+                href="page/gallery.html"
+              >
+                Gallery
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:text-blue-600 transition"
+                href="page/contact.html"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="pt-8 md:pt-0 md:pl-8">
+          <h4 class="text-white text-xl font-bold mb-4">Follow Us</h4>
+          <div class="flex space-x-6 text-gray-400">
+            <a
+              aria-label="Facebook"
+              class="hover:text-blue-600 transition"
+              href="https://facebook.com/mdskontraktor"
+            >
+              <i class="fab fa-facebook fa-2x"> </i>
+            </a>
+            <a
+              aria-label="Twitter"
+              class="hover:text-blue-600 transition"
+              href="https://twitter.com/mdskontraktor"
+            >
+              <i class="fa-brands fa-x-twitter fa-2x"> </i>
+            </a>
+            <a
+              aria-label="Instagram"
+              class="hover:text-pink-500 transition"
+              href="https://instagram.com/mdskontraktor"
+            >
+              <i class="fab fa-instagram fa-2x"> </i>
+            </a>
+            <a
+              aria-label="LinkedIn"
+              class="hover:text-blue-600 transition"
+              href="https://linkedin.com/company/mdskontraktor"
+            >
+              <i class="fab fa-linkedin fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 text-center text-gray-500 text-sm">
+        © 2025 MELEGACY. All rights reserved.
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
